@@ -77,20 +77,20 @@ Both endpoints support filtering by date and station ID, and implement paginatio
 
 5. Run the data ingestion and analysis:
    ```
-   python src/ingest.py
-   python src/analysis.py
+   python -m src/ingest.py
+   python -m src/analysis.py
    ```
 
 6. Start the Flask application server:
    ```
-   python src/app.py
+   python -m src/app.py
    ```
 
 ## Testing
 
 Run the unit tests using:
 ```
-python -m pytest
+python -m src/test_app.py
 ```
 
 ## API Documentation
