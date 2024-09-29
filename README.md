@@ -134,3 +134,19 @@ flask-api-task/
 ├── run.py # Script to run the Flask application
 └── README.md # Project documentation and instructions
 ```
+
+## Extra Credit - Deployment
+
+For the extra credit deployment approach using AWS services, please refer to the [extra_credit_answer.md](extra_credit_answer.md) file in the root directory of this project. This file contains a detailed explanation of:
+
+- AWS services and tools to be used
+- A step-by-step deployment approach
+- Security considerations
+- Scaling and optimization strategies
+
+If needed, since I don't have access to AWS, I can replicate the similar setup using:
+- **Airflow**: For scheduling weather data ingestion tasks.
+- **Docker** & **Docker Compose**: For containerizing the application and managing services locally.
+- **Minikube**: For local Kubernetes deployment.
+- **GitHub Actions**: For automating the CI/CD pipeline.
+- **DockerHub**: For storing and sharing Docker images.
