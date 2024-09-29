@@ -75,13 +75,14 @@ Both endpoints support filtering by date and station ID, and implement paginatio
      POSTGRES_PORT=<port> # "5432" is default if running locally
      ```
 
-5. Run the data ingestion and analysis:
+5. Load data from https://github.com/corteva/code-challenge-template into data/wx_data folder.
+6. Run the data ingestion and analysis:
    ```
    python -m src/ingest.py
    python -m src/analysis.py
    ```
 
-6. Start the Flask application server:
+7. Start the Flask application server:
    ```
    python -m src/app.py
    ```
