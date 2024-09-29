@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables
+.env
+
+# Log files
+*.log
+logs/
+
+# Byte-compiled Python
+*.pyc
+
+# Data
+data/
