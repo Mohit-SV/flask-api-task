@@ -1,9 +1,7 @@
 import logging
 import os
-from datetime import datetime
 from dotenv import load_dotenv
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
 
 def setup_logger(log_file):
     # Create logs directory if it doesn't exist
